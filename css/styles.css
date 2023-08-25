@@ -1,6 +1,6 @@
 /* f1bra0ptica@2023  */
 
-:root {
+/* :root {
   --color-iris: #4d5ae5;
   --color-ocean: #404bbf;
   --color-navy-blue: #2e2f42;
@@ -16,7 +16,7 @@
 
   --grad: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
   --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Сбрасывание стилей */
 
@@ -116,9 +116,9 @@ body {
   background-color: var(--color-ocean);
 }
 
-/* =============== HEADER =============== */
+/* =============== HEADER - ============== */
 
-/* Виносимо max-width, выносим те св-ва, кот нужны только для конкретных устройств, т.е. эти классы дальше повторяться не будут либо будут прописаны условия, отличные от тех, которые в max-width */
+/*  НЕ ВЫНЕСЕНО=Виносимо max-width, выносим те св-ва, кот нужны только для конкретных устройств, т.е. эти классы дальше повторяться не будут либо будут прописаны условия, отличные от тех, которые в max-width */
 
 @media screen and (max-width: 767px) {
   .header-list,
@@ -1242,7 +1242,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio {
+  .portfolio-section {
     padding-top: 64px;
     padding-bottom: 96px;
   }
@@ -1273,7 +1273,7 @@ body {
 }
 
 @media screen and (min-width: 1158px) {
-  .portfolio {
+  .portfolio-section {
     padding-top: 100px;
     padding-bottom: 120px;
   }
