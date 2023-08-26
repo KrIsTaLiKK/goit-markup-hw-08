@@ -57,12 +57,6 @@
   }
 }
 
-.header-link:is(:hover, :focus),
-.email-link:is(:hover, :focus),
-.mob-menu-link:is(:hover, :focus) {
-  color: $color-ocean;
-}
-
 .current-link-page::after {
   @include tablet {
     position: absolute;
@@ -108,10 +102,6 @@
     letter-spacing: 0.48px;
     color: inherit;
     transition: color $transition-dur-and-func;
-
-    &:is(:hover, :focus) {
-      color: $color-ocean;
-    }
   }
 
   @include desktop {
